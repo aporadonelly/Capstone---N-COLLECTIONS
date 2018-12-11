@@ -1,0 +1,33 @@
+* {
+	font-family: Abel, Helvetica, serif;
+}
+
+.container-fluid {	
+	background: url('https://images.pexels.com/photos/206296/pexels-photo-206296.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')no-repeat fixed  center center;
+	-webkit-background-size: cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size: cover;
+	height: 100vh;
+}
+
+.logoName {
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+.jumbotron {
+	padding-top: 650px;
+}
+
+.welcome-message {
+	margin-left: 50px;
+}
+
+.button_1 {
+	margin-left:150px;
+}
+
+.desc {
+	margin-left:40px;
+}
