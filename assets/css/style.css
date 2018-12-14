@@ -34,14 +34,20 @@
 }
 
 .welcome-message {
-	padding: 50px;
+	/*padding: 50px;*/
 	/*background: #0A2C2D;*/
-	background: rgba(0,0,0,.5);
+	/*background: rgba(0,0,0,.5);*/
 
 }
 
 .buttonhHome {
-	border:1px solid #fff;
+	border:1px solid #000;
+	/*background: #fff;*/
+}
+
+.buttonhHome:hover {
+	background: #fff;
+	color:#fff;
 }
 
 .active {
@@ -74,17 +80,6 @@
 
 .navbar .active {
 	border-bottom:1px solid #000;
-}
-
-.buttonhHome:hover {
-	background: #000;
-	color:#fff;
-	/*transition: 2s;
-*/}
-
-.welcome-message {
-	margin-left: 50px;
-	width: 35%;
 }
 
 .desc {
@@ -176,14 +171,14 @@
 	background: #D7C9BE;
 	height: 80vh;
 	padding: 50px;
-	padding-top: 150px;
+	padding-top: 100px;
 }
 
 .mission {
 	background: #EDEBE5;
-	height: 80vh;
+	height: auto;
 	padding: 50px;
-	padding-top: 150px;
+	padding-top: 100px;
 }
 
 hr {
@@ -228,4 +223,26 @@ footer a:hover {
 .modal-size {
 	max-width: 60%;
 
+}
+
+/*media query*/
+@media only screen and (max-width: 400px){
+	.landing-page {
+		background: url('../images/fashion/landingPage2.png')no-repeat fixed  center center;
+		-webkit-background-size: cover;
+		-moz-background-size:cover;
+		-o-background-size:cover;
+		background-size: cover;
+		/*height: 100vh;*/
+	}
+
+	.landing-page h1 {
+		font-size: 40px;
+		/*margin:auto;*/
+	}
+
+	.buttonhHome {
+		margin-left: 40px;
+		padding:5px;
+	}
 }
