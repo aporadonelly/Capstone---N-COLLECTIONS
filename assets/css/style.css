@@ -13,21 +13,27 @@
 	background-size: cover;
 	height: 100vh;
 	position: relative;
+	max-width: 100%;
 }
 
 .welcome-message h1 {
 	font-size: 70px;
+	color: #fff;
+	letter-spacing: 15px;
+	line-height: 2;
+	text-shadow: 15px 15px 50px black;
+	/*box-shadow: 15px 15px 50px gray;	*/
 }
 
-.buttonhHome {
+a.buttonhHome {
 	border:1px solid #fff;
-	color: #000;
-	margin-left:100px;
+	background: rgba(0,0,0,.5);
+	color: #fff;
 }
 
 .buttonhHome:hover {
 	border:1px solid #000;
-	color: #000;
+	color: #fff;
 	background: #000;
 }
 
@@ -45,21 +51,28 @@
 	/*border-bottom: 1px solid #000;*/
 }
 
+.nav-link{
+	color: #000;
+}
 .active {
 	color: #C12220;
 	/*border-bottom:1px solid #000;*/
 }
 
 .nav-item {
-	font-weight: bold;
+	/*font-weight: bold;*/
 	margin: 10px;
 }
 
+a:hover {
+	color: #000;
+}
+
 .brandName {
-	color: #974C49;
+	color: gray;
 	font-weight: bold;
 	font-size: 30px;
-	font-family: 'Tondo', serif;
+	font-family: 'Abel', serif;
 	text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
 }
 
@@ -222,22 +235,57 @@ footer a:hover {
 
 /*media query*/
 /**Index Part*/
-/*@media (min-width: 576px){
+@media (max-width: 991.98px){
+	* {
+	font-family: Abel, Helvetica, serif;
+	margin: 0;
+	padding: 0;
+	display: block;
+	max-width: 100%;
+	}
+
 	.landing-page {
-		background: url('../images/fashion/homeBg3.jpeg')no-repeat fixed  center center;
+		background: url('../images/fashion/card5.2.jpeg')no-repeat fixed  center center;
 		-webkit-background-size: cover;
 		-moz-background-size:cover;
 		-o-background-size:cover;
 		background-size: cover;
 	}
 
-	.landing-page h1 {
+	.welcome-message h1 {
 		font-size: 20px;
+		letter-spacing: 10px;
+		color:#fff;
+		text-shadow: 15px 15px 50px black;
 	}
 
 	.buttonhHome {
-		margin:auto;
-		/*padding:10px;
+		/*margin-left:40px;*/
+		/*padding:10px;*/
 		background: #fff;
+		padding: 15px;
+		font-size: 18px;
 	}
-}*/*/
+
+	.navbar {
+	background:rgba(0,0,0,.9);
+	/*border-bottom: 1px solid #000;*/
+	color: #fff;
+	width: 100%;
+	}
+
+	.brandName {
+		color: #fff;
+		font-family: Abel, serif;
+		font-size: 20px;
+		margin-left:-100px;
+	}
+	.homePage {
+		height: auto;
+		display: block;
+	}
+
+	.mini_about_section {
+		
+	}
+}
