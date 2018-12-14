@@ -4,22 +4,35 @@
 	padding: 0;
 }
 
-.brandName {
-	color:;
-}
-
 .landing-page{
 	/*background: #eaeaea;*/
-	background: url('../images/fashion/landingPage2.png')no-repeat fixed  center center;
+	background: url('../images/fashion/card5.2.jpeg')no-repeat fixed right center;
 	-webkit-background-size: cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	background-size: cover;
 	height: 100vh;
+	position: relative;
 }
 
+.welcome-message h1 {
+	font-size: 70px;
+}
+
+.buttonhHome {
+	border:1px solid #fff;
+	color: #000;
+	background: #000;
+	margin-left:100px;
+}
+
+/*.buttonhHome:hover {
+	border:1px solid #000;
+	color: #000;
+	background: #000;
+}*/
+
 .landing-page2{
-	/*background: #eaeaea;*/
 	background: url('../images/fashion/card5.jpeg')no-repeat fixed  center center;
 	-webkit-background-size: cover;
 	-moz-background-size:cover;
@@ -31,23 +44,6 @@
 .navbar {
 	background:#fff;
 	/*border-bottom: 1px solid #000;*/
-}
-
-.welcome-message {
-	/*padding: 50px;*/
-	/*background: #0A2C2D;*/
-	/*background: rgba(0,0,0,.5);*/
-
-}
-
-.buttonhHome {
-	border:1px solid #000;
-	/*background: #fff;*/
-}
-
-.buttonhHome:hover {
-	background: #fff;
-	color:#fff;
 }
 
 .active {
@@ -226,9 +222,10 @@ footer a:hover {
 }
 
 /*media query*/
-@media only screen and (max-width: 400px){
+/**Index Part*/
+/*@media (min-width: 576px){
 	.landing-page {
-		background: url('../images/fashion/card2-1.jpg')no-repeat fixed  center center;
+		background: url('../images/fashion/homeBg3.jpeg')no-repeat fixed  center center;
 		-webkit-background-size: cover;
 		-moz-background-size:cover;
 		-o-background-size:cover;
@@ -236,20 +233,12 @@ footer a:hover {
 	}
 
 	.landing-page h1 {
-		font-size: 40px;
-		/*margin:auto;*/
-		color:#fff;
+		font-size: 20px;
 	}
 
 	.buttonhHome {
-		margin-left: 40px;
-		padding:5px;
-		color:#fff;
+		margin:auto;
+		/*padding:10px;
+		background: #fff;
 	}
-
-	.buttonhHome {
-	border:1px solid #fff;
-	background: #000;
-	font-size: 18px;
-	}
-}
+}*/*/
