@@ -6,7 +6,7 @@
 
 .landing-page{
 	/*background: #eaeaea;*/
-	background: url('../images/fashion/card5.2.jpeg')no-repeat fixed right center;
+	background: url('../images/fashion/card2.2.jpeg')no-repeat fixed right center;
 	-webkit-background-size: cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
@@ -22,15 +22,14 @@
 .buttonhHome {
 	border:1px solid #fff;
 	color: #000;
-	background: #000;
 	margin-left:100px;
 }
 
-/*.buttonhHome:hover {
+.buttonhHome:hover {
 	border:1px solid #000;
 	color: #000;
 	background: #000;
-}*/
+}
 
 .landing-page2{
 	background: url('../images/fashion/card5.jpeg')no-repeat fixed  center center;
