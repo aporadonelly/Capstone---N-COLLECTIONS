@@ -228,21 +228,28 @@ footer a:hover {
 /*media query*/
 @media only screen and (max-width: 400px){
 	.landing-page {
-		background: url('../images/fashion/landingPage2.png')no-repeat fixed  center center;
+		background: url('../images/fashion/card2-1.jpg')no-repeat fixed  center center;
 		-webkit-background-size: cover;
 		-moz-background-size:cover;
 		-o-background-size:cover;
 		background-size: cover;
-		/*height: 100vh;*/
 	}
 
 	.landing-page h1 {
 		font-size: 40px;
 		/*margin:auto;*/
+		color:#fff;
 	}
 
 	.buttonhHome {
 		margin-left: 40px;
 		padding:5px;
+		color:#fff;
+	}
+
+	.buttonhHome {
+	border:1px solid #fff;
+	background: #000;
+	font-size: 18px;
 	}
 }
